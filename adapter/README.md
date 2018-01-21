@@ -105,6 +105,14 @@ captain.row();
 - java.util.Collections#enumeration()
 - javax.xml.bind.annotation.adapters.XMLAdapter
 
+#### 译者总结
+适配器模式共有3个角色：
+- 目标接口（Target）
+- 被适配者类（Adaptee）
+- 适配器类（Adapter）
+
+使用的形式为：适配器类（Adapter）继承或者使用组合方式与被适配者类（Adaptee）进行关联。并实现目标接口（Target)
+一句话总结：适配器通过继承或者组合方式持有配适配者类的行为，并实现目标接口，使其具有目标接口的特性。
 #### 感谢
 * [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 * [J2EE Design Patterns](http://www.amazon.com/J2EE-Design-Patterns-William-Crawford/dp/0596004273/ref=sr_1_2)

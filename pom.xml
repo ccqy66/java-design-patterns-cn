@@ -155,6 +155,7 @@
         <module>eip-aggregator</module>
         <module>retry</module>
         <module>adapter</module>
+        <module>chain</module>
     </modules>
 
     <repositories>
