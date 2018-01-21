@@ -156,6 +156,7 @@
         <module>retry</module>
         <module>adapter</module>
         <module>chain</module>
+        <module>builder</module>
     </modules>
 
     <repositories>
